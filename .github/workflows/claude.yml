@@ -12,6 +12,8 @@ jobs:
       issues: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: production
       - name: Run Claude Code Action
         uses: anthropics/claude-code-action@main
         with:
