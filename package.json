@@ -1,0 +1,10 @@
+{
+  "name": "version-manager",
+  "version": "1.0.0",
+  "description": "Simple version management utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests yet\""
+  }
+}
